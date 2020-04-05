@@ -29,5 +29,5 @@ target("icalculator")
     set_targetdir("calculator/")
 
     -- build dir
-    set_objectdir(".build/objs")
+    set_objectdir("build/objs")
 

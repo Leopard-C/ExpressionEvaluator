@@ -1,2 +1,2 @@
-example/build
-example/.xmake
+example/build/*
+example/.xmake/*

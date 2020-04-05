@@ -66,7 +66,7 @@ bool ExpressionEvaluator::validate(std::string& str) {
                 }
                 else {
                     errorCode = 0x02;
-                    return false;   // ERROR: two continuois operators
+                    return false;   // ERROR: two continuous operators
                 }
             }
             else {
@@ -325,7 +325,7 @@ std::string ExpressionEvaluator::getErrorDesc(int err_code) {
     case 0x01:
         return "ERROR: The number is separated";
     case 0x02:
-        return "ERROR: Two continuois operators";
+        return "ERROR: Two continuous operators";
     case 0x03:
         return "ERROR: Unknown character";
     case 0x04:
